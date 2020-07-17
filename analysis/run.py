@@ -2,6 +2,7 @@ import sys
 import subprocess
 
 execute_script = '../config/scons/scons.py'
+execute_script = '../analysis/source/prepare_data/create_data.do'
 
 def main(execute_script):
     '''
@@ -14,6 +15,7 @@ def main(execute_script):
 
     # Create call
     call = 'python %s %s' % (execute_script, cl_args)
+    call = 'stata-mp -e %s %s' % (execute_script, cl_args)
 
     # Execute
     subprocess.call(call, shell = True)
