@@ -1,9 +1,39 @@
-*** New build: {2018-02-14 21:11:14} ***
+*** New build: {2020-07-17 15:47:52} ***
 scons: done reading SConscript files.
 scons: Building targets ...
-scons: `build' is up to date.
-scons: `release' is up to date.
+build_lyx(["build/paper/paper.pdf"], ["source/paper/paper.lyx"])
+Install directory: "build/paper" as "release/paper"
 scons: done building targets.
-*** Build completed: {2018-02-14 21:11:14} ***
+*** Build completed: {2020-07-17 15:47:54} ***
  
  
+./build/paper/sconscript.log
+*** Builder log created: {2020-07-17 15:47:52}
+*** Builder log completed: {2020-07-17 15:47:54}
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+./release/paper/sconscript.log
+*** Builder log created: {2020-07-17 15:47:52}
+*** Builder log completed: {2020-07-17 15:47:54}
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>

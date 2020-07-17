@@ -13,7 +13,7 @@ source:
 
 # Input Directories (will record contents)
 input: None
-
+data: /Users/houdanait/Dropbox (GSLab)
 # Executable names
 executable_names:
   python: None
