@@ -5,7 +5,7 @@ source = env['CONFIG']['global']['source']['descriptive']
 data   = env['CONFIG']['global']['build']['prepare_data']
 
 env.BuildPython(target  = ['#%s/plot.eps'       % build,
-                           '#%s/table.txt'      % build],
+                           '#%s/data.txt'      % build],
                 source  = ['#%s/descriptive.py' % source,
                            '#%s/data.txt'       % data],
                 log_ext = 'descriptive')

@@ -1,0 +1,13 @@
+Import('env')
+import gslab_scons as gs
+
+build  = env['CONFIG']['global']['build']['draw_data']
+source = env['CONFIG']['global']['source']['draw_data']
+
+env.BuildPython(target  = ['#%s/draws.csv'       % build],
+                source  = ['#%s/random_draws.py' % source],
+                log_ext =  'random_draws')
+
+
+
+env.Install('#release', '#%s/draws.csv' % build)

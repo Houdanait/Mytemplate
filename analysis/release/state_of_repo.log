@@ -8,15 +8,12 @@ as it can be edited after state_of_repo.log finishes running
 ===================================
 Last commit:
 
-commit 49dc78a56e9c0fde514f36d3c2f2fe2b1a1101d2
-Author: Zane Kashner <zkashner@stanford.edu>
-Date:   Sun Jun 21 22:04:07 2020 -0500
+commit fb59f0ee0423499ff763534a03e7f66a4bb2980f
+Merge: f7cd0ba 2b6fc1b
+Author: Houda Nait <naitelbarjhouda@gmail.com>
+Date:   Fri Jul 17 16:16:38 2020 -0700
 
-    Pull request for: #115 Update CRAN mirror (#116)
-    
-    * #115 updated to use WUSTL CRAN mirror instead
-    
-    * #115 deleted slash
+    Merge branch 'master' of git+ssh://github.com/Houdanait/Mytemplate
 
 
 Files changed since last commit:
@@ -27,21 +24,8 @@ analysis/release/descriptive/plot.eps
 analysis/release/descriptive/sconscript_descriptive.log
 analysis/release/sconstruct.log
 analysis/release/state_of_repo.log
-analysis/source/descriptive/descriptive.py
-paper_slides/input/plot.eps
-paper_slides/release/paper/ondeck.pdf
-paper_slides/release/paper/online_appendix.pdf
-paper_slides/release/paper/paper.pdf
-paper_slides/release/paper/sconscript.log
-paper_slides/release/paper/text.pdf
-paper_slides/release/sconstruct.log
-paper_slides/release/state_of_input.log
-paper_slides/release/state_of_repo.log
-paper_slides/release/talk/sconscript.log
-paper_slides/release/talk/slides.pdf
-paper_slides/source/figures/figure.lyx
-paper_slides/source/paper/paper.lyx
-paper_slides/source/tables/table.lyx
+analysis/run.py
+analysis/source/descriptive/SConscript
 
 ===================================
 
@@ -49,80 +33,101 @@ paper_slides/source/tables/table.lyx
 
 ===================================
 ./config_user.yaml:
-   modified on: 17 Jul 2020 10:58:00
+   modified on: 20 Jul 2020 10:23:03
    size of file: 646
 ./run.py:
-   modified on: 17 Jul 2020 10:57:22
+   modified on: 20 Jul 2020 10:22:55
    size of file: 449
 ./state_of_repo.log:
-   modified on: 17 Jul 2020 15:47:23
-   size of file: 1307
+   modified on: 20 Jul 2020 16:41:02
+   size of file: 742
 ./SConstruct:
-   modified on: 17 Jul 2020 10:57:22
+   modified on: 17 Jul 2020 16:53:28
    size of file: 1878
 ./config_global.yaml:
-   modified on: 17 Jul 2020 11:05:55
-   size of file: 1302
+   modified on: 20 Jul 2020 16:37:40
+   size of file: 1511
 ./sconstruct.log:
-   modified on: 17 Jul 2020 15:47:23
-   size of file: 1292
-./source/prepare_data/.Rhistory:
-   modified on: 17 Jul 2020 11:23:16
-   size of file: 223
+   modified on: 20 Jul 2020 16:41:02
+   size of file: 199
+./source/plot/plot.py:
+   modified on: 20 Jul 2020 15:03:52
+   size of file: 245
+./source/plot/SConscript:
+   modified on: 20 Jul 2020 16:39:30
+   size of file: 477
+./source/draw_data/random_draws.py:
+   modified on: 20 Jul 2020 14:00:28
+   size of file: 255
+./source/draw_data/SConscript:
+   modified on: 20 Jul 2020 16:39:12
+   size of file: 366
 ./source/prepare_data/create_data.m:
-   modified on: 17 Jul 2020 10:57:22
+   modified on: 17 Jul 2020 16:53:28
    size of file: 202
 ./source/prepare_data/create_data.sh:
-   modified on: 17 Jul 2020 10:57:22
+   modified on: 17 Jul 2020 16:53:28
    size of file: 81
 ./source/prepare_data/create_data.do:
-   modified on: 17 Jul 2020 10:57:22
+   modified on: 17 Jul 2020 16:53:28
    size of file: 262
 ./source/prepare_data/SConscript:
-   modified on: 17 Jul 2020 10:57:22
+   modified on: 17 Jul 2020 16:53:28
    size of file: 1126
 ./source/prepare_data/create_data.py:
-   modified on: 17 Jul 2020 10:57:22
+   modified on: 17 Jul 2020 16:53:28
    size of file: 260
 ./source/prepare_data/create_data.r:
-   modified on: 17 Jul 2020 11:55:17
+   modified on: 17 Jul 2020 16:53:28
    size of file: 249
 ./source/descriptive/descriptive.py:
-   modified on: 17 Jul 2020 15:23:25
+   modified on: 17 Jul 2020 16:53:28
    size of file: 530
 ./source/descriptive/SConscript:
-   modified on: 17 Jul 2020 10:57:22
-   size of file: 501
+   modified on: 20 Jul 2020 15:33:13
+   size of file: 500
+./release/create_data.log:
+   modified on: 20 Jul 2020 10:18:25
+   size of file: 1394
 ./release/state_of_repo.log:
-   modified on: 17 Jul 2020 15:27:44
-   size of file: 3199
+   modified on: 20 Jul 2020 16:39:55
+   size of file: 3777
 ./release/sconstruct.log:
-   modified on: 17 Jul 2020 15:27:44
-   size of file: 1483
+   modified on: 20 Jul 2020 16:39:55
+   size of file: 250
 ./release/descriptive/sconscript_descriptive.log:
-   modified on: 17 Jul 2020 10:58:10
+   modified on: 20 Jul 2020 10:25:47
    size of file: 96
 ./release/descriptive/plot.eps:
-   modified on: 17 Jul 2020 10:58:10
-   size of file: 12351
+   modified on: 20 Jul 2020 10:25:47
+   size of file: 13619
 ./release/descriptive/table.txt:
-   modified on: 17 Jul 2020 10:58:09
+   modified on: 17 Jul 2020 16:53:28
    size of file: 39
+./release/descriptive/data.txt:
+   modified on: 20 Jul 2020 10:25:47
+   size of file: 44
 ./release/lg/data.txt:
-   modified on: 17 Jul 2020 10:58:06
+   modified on: 20 Jul 2020 10:23:14
    size of file: 1988897
+./build/plot/draw_plot.eps:
+   modified on: 20 Jul 2020 16:40:41
+   size of file: 15067
+./build/draw_data/draws.csv:
+   modified on: 20 Jul 2020 16:40:17
+   size of file: 254962
 ./build/prepare_data/sconscript_create_data.log:
-   modified on: 17 Jul 2020 10:58:06
+   modified on: 20 Jul 2020 10:23:14
    size of file: 96
 ./build/prepare_data/data.txt:
-   modified on: 17 Jul 2020 11:39:46
+   modified on: 20 Jul 2020 10:23:14
    size of file: 1988897
 ./build/descriptive/sconscript_descriptive.log:
-   modified on: 17 Jul 2020 15:47:22
-   size of file: 0
+   modified on: 20 Jul 2020 10:25:47
+   size of file: 96
 ./build/descriptive/plot.eps:
-   modified on: 17 Jul 2020 15:47:23
+   modified on: 20 Jul 2020 10:25:47
    size of file: 13619
 ./build/descriptive/data.txt:
-   modified on: 17 Jul 2020 15:47:23
+   modified on: 20 Jul 2020 10:25:47
    size of file: 44

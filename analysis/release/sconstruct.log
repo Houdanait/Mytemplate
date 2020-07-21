@@ -1,23 +1,9 @@
-*** New build: {2020-07-17 15:47:22} ***
+*** New build: {2020-07-20 16:41:02} ***
 scons: done reading SConscript files.
 scons: Building targets ...
-build_python(["build/descriptive/plot.eps", "build/descriptive/table.txt"], ["source/descriptive/descriptive.py", "build/prepare_data/data.txt"])
-scons: *** [build/descriptive/plot.eps] TargetNonexistenceError : The following target files do not exist after build:
-    build/descriptive/table.txt
-Traceback (most recent call last):
-  File "/Users/houdanait/Desktop/Attempt/config/scons/scons-local-3.0.1/SCons/Action.py", line 1197, in execute
-    result = self.execfunction(target=target, source=rsources, env=env)
-  File "/Users/houdanait/Library/Python/2.7/lib/python/site-packages/gslab_scons/builders/build_python.py", line 26, in build_python
-    builder.execute_system_call()
-  File "/Users/houdanait/Library/Python/2.7/lib/python/site-packages/gslab_scons/builders/gslab_builder.py", line 119, in execute_system_call
-    self.check_targets()
-  File "/Users/houdanait/Library/Python/2.7/lib/python/site-packages/gslab_scons/builders/gslab_builder.py", line 177, in check_targets
-    raise TargetNonexistenceError(message)
-TargetNonexistenceError: The following target files do not exist after build:
-    build/descriptive/table.txt
-scons: building terminated because of errors.
-*** Build completed: {2020-07-17 15:47:23} ***
+scons: `build' is up to date.
+scons: `release' is up to date.
+scons: done building targets.
+*** Build completed: {2020-07-20 16:41:02} ***
  
  
-*** Warning!!! The log below does not have timestamps, the Sconscript may not have finished.
-./build/descriptive/sconscript_descriptive.log
