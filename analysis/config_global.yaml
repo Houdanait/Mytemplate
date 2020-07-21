@@ -4,20 +4,20 @@ gslab_version: 4.1.1
 # Build Directories
 build:
   prepare_data: build/prepare_data
-  descriptive: build/descriptive
-  draw_data: build/draw_data
-  plot: build/plot
+  descriptive:  build/descriptive
+  draw_data:    build/draw_data
+  plot:         build/plot
 
 # Source Directories
 source:
   prepare_data: source/prepare_data
-  descriptive: source/descriptive
-  draw_data: source/draw_data
-  source: source/plot
+  descriptive:  source/descriptive
+  draw_data:    source/draw_data
+  plot:         source/plot
 
 # Input Directories (will record contents)
 input: None
-data: /Users/houdanait/Dropbox (GSLab)
+data: None
 
 #Release Directories
 release:
@@ -27,9 +27,9 @@ release:
 
 # Executable names
 executable_names:
-  python: None
+  python: python
   r: None
-  stata: stata-se
+  stata: None
   matlab: None
   lyx: none
   latex: None
