@@ -1,9 +1,15 @@
-*** New build: {2020-07-21 14:55:23} ***
+*** New build: {2020-07-21 14:42:03} ***
 scons: done reading SConscript files.
 scons: Building targets ...
-scons: `build' is up to date.
-Install file: "build/prepare_data/data.txt" as "release/lg/data.txt"
+build_python(["build/plot/draw_plot.eps"], ["source/plot/plot.py", "build/draw_data/draws.csv"])
+Install directory: "build/plot" as "release/plot"
 scons: done building targets.
-*** Build completed: {2020-07-21 14:55:23} ***
+*** Build completed: {2020-07-21 14:42:04} ***
  
  
+./release/plot/sconscript_plot.log
+*** Builder log created: {2020-07-21 14:42:03}
+*** Builder log completed: {2020-07-21 14:42:04}
+./build/plot/sconscript_plot.log
+*** Builder log created: {2020-07-21 14:42:03}
+*** Builder log completed: {2020-07-21 14:42:04}

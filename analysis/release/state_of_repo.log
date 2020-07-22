@@ -8,26 +8,23 @@ as it can be edited after state_of_repo.log finishes running
 ===================================
 Last commit:
 
-commit bc400f39636023b508fe615f6293e147840aa073
-Author: Houda Nait <naitelbarjhouda@gmail.com>
-Date:   Mon Jul 20 19:52:51 2020 -0700
+commit 9d3e07f4a7da2c8d34f2e4323f85f4bd04e37a37
+Author: Zane Kashner <zkashner@stanford.edu>
+Date:   Tue Jul 21 15:01:13 2020 -0500
 
-    Create new data from draws and plot it
+    @Houdanait these are the updates I made so that it will run correctly, also take a look at your plot function it is not working well
 
 
 Files changed since last commit:
 
 
-analysis/.RData
-analysis/SConstruct
-analysis/config_global.yaml
+analysis/release/descriptive/data.txt
+analysis/release/descriptive/plot.eps
+analysis/release/descriptive/sconscript_descriptive.log
+analysis/release/plot/draw_plot.eps
+analysis/release/plot/sconscript_plot.log
 analysis/release/sconstruct.log
 analysis/release/state_of_repo.log
-analysis/source/descriptive/SConscript
-analysis/source/descriptive/descriptive.py
-analysis/source/draw_data/SConscript
-analysis/source/plot/SConscript
-config/configuration.py
 
 ===================================
 
@@ -35,113 +32,122 @@ config/configuration.py
 
 ===================================
 ./config_user.yaml:
-   modified on: 21 Jul 2020 14:47:33
-   size of file: 631
+   modified on: 20 Jul 2020 10:23:03
+   size of file: 646
 ./run.py:
-   modified on: 21 Jul 2020 14:30:39
+   modified on: 20 Jul 2020 10:22:55
    size of file: 449
 ./state_of_repo.log:
-   modified on: 21 Jul 2020 14:55:23
-   size of file: 753
+   modified on: 21 Jul 2020 14:42:04
+   size of file: 816
 ./SConstruct:
-   modified on: 21 Jul 2020 14:48:52
+   modified on: 21 Jul 2020 14:13:17
    size of file: 1958
 ./config_global.yaml:
-   modified on: 21 Jul 2020 14:51:59
+   modified on: 21 Jul 2020 14:13:17
    size of file: 1503
 ./sconstruct.log:
-   modified on: 21 Jul 2020 14:55:23
-   size of file: 236
+   modified on: 21 Jul 2020 14:42:04
+   size of file: 284
 ./source/plot/plot.py:
-   modified on: 21 Jul 2020 12:07:14
+   modified on: 20 Jul 2020 15:03:52
    size of file: 245
+./source/plot/Untitled.ipynb:
+   modified on: 21 Jul 2020 14:36:58
+   size of file: 4308
 ./source/plot/SConscript:
-   modified on: 21 Jul 2020 14:53:32
+   modified on: 21 Jul 2020 14:13:17
    size of file: 420
+./source/plot/untitled:
+   modified on: 21 Jul 2020 14:34:13
+   size of file: 0
+./source/plot/.ipynb_checkpoints/Untitled-checkpoint.ipynb:
+   modified on: 21 Jul 2020 14:34:57
+   size of file: 72
 ./source/draw_data/random_draws.py:
-   modified on: 21 Jul 2020 12:07:14
+   modified on: 20 Jul 2020 14:00:28
    size of file: 255
 ./source/draw_data/SConscript:
-   modified on: 21 Jul 2020 14:54:37
+   modified on: 21 Jul 2020 14:13:17
    size of file: 314
 ./source/prepare_data/create_data.m:
-   modified on: 21 Jul 2020 12:07:14
+   modified on: 17 Jul 2020 16:53:28
    size of file: 202
 ./source/prepare_data/create_data.sh:
-   modified on: 21 Jul 2020 12:07:14
+   modified on: 17 Jul 2020 16:53:28
    size of file: 81
 ./source/prepare_data/create_data.do:
-   modified on: 21 Jul 2020 12:07:14
+   modified on: 17 Jul 2020 16:53:28
    size of file: 262
 ./source/prepare_data/SConscript:
-   modified on: 21 Jul 2020 12:07:14
+   modified on: 17 Jul 2020 16:53:28
    size of file: 1126
 ./source/prepare_data/create_data.py:
-   modified on: 21 Jul 2020 12:07:14
+   modified on: 17 Jul 2020 16:53:28
    size of file: 260
 ./source/prepare_data/create_data.r:
-   modified on: 21 Jul 2020 12:07:14
+   modified on: 17 Jul 2020 16:53:28
    size of file: 249
 ./source/descriptive/descriptive.py:
-   modified on: 21 Jul 2020 14:52:10
+   modified on: 21 Jul 2020 14:13:17
    size of file: 547
 ./source/descriptive/SConscript:
-   modified on: 21 Jul 2020 14:51:35
+   modified on: 21 Jul 2020 14:13:17
    size of file: 501
 ./release/create_data.log:
-   modified on: 21 Jul 2020 12:07:14
+   modified on: 20 Jul 2020 10:18:25
    size of file: 1394
 ./release/state_of_repo.log:
-   modified on: 21 Jul 2020 14:55:06
-   size of file: 4166
+   modified on: 21 Jul 2020 14:13:49
+   size of file: 4162
 ./release/sconstruct.log:
-   modified on: 21 Jul 2020 14:55:06
-   size of file: 250
+   modified on: 21 Jul 2020 14:13:49
+   size of file: 1316
 ./release/plot/draw_plot.eps:
-   modified on: 21 Jul 2020 14:53:37
+   modified on: 21 Jul 2020 14:42:04
    size of file: 15067
 ./release/plot/sconscript_plot.log:
-   modified on: 21 Jul 2020 14:53:37
+   modified on: 21 Jul 2020 14:42:04
    size of file: 96
 ./release/descriptive/sconscript_descriptive.log:
-   modified on: 21 Jul 2020 12:07:14
+   modified on: 21 Jul 2020 14:13:48
    size of file: 96
 ./release/descriptive/plot.eps:
-   modified on: 21 Jul 2020 12:07:14
-   size of file: 13619
+   modified on: 21 Jul 2020 14:13:48
+   size of file: 12351
 ./release/descriptive/table.txt:
-   modified on: 21 Jul 2020 12:07:14
+   modified on: 17 Jul 2020 16:53:28
    size of file: 39
 ./release/descriptive/data.txt:
-   modified on: 21 Jul 2020 12:07:14
-   size of file: 44
+   modified on: 21 Jul 2020 14:13:48
+   size of file: 39
 ./release/lg/data.txt:
-   modified on: 21 Jul 2020 14:50:23
+   modified on: 20 Jul 2020 10:23:14
    size of file: 1988897
 ./build/plot/draw_plot.eps:
-   modified on: 21 Jul 2020 14:53:37
+   modified on: 21 Jul 2020 14:42:04
    size of file: 15067
 ./build/plot/sconscript_plot.log:
-   modified on: 21 Jul 2020 14:53:37
+   modified on: 21 Jul 2020 14:42:04
    size of file: 96
 ./build/draw_data/sconscript_random_draws.log:
-   modified on: 21 Jul 2020 14:52:16
+   modified on: 21 Jul 2020 14:13:48
    size of file: 96
 ./build/draw_data/draws.csv:
-   modified on: 21 Jul 2020 14:52:16
-   size of file: 254962
+   modified on: 21 Jul 2020 14:39:28
+   size of file: 133868
 ./build/prepare_data/sconscript_create_data.log:
-   modified on: 21 Jul 2020 14:50:23
+   modified on: 20 Jul 2020 10:23:14
    size of file: 96
 ./build/prepare_data/data.txt:
-   modified on: 21 Jul 2020 14:50:23
+   modified on: 20 Jul 2020 10:23:14
    size of file: 1988897
 ./build/descriptive/sconscript_descriptive.log:
-   modified on: 21 Jul 2020 14:52:16
+   modified on: 21 Jul 2020 14:13:48
    size of file: 96
 ./build/descriptive/plot.eps:
-   modified on: 21 Jul 2020 14:52:16
+   modified on: 21 Jul 2020 14:13:48
    size of file: 12351
 ./build/descriptive/data.txt:
-   modified on: 21 Jul 2020 14:52:16
+   modified on: 21 Jul 2020 14:13:48
    size of file: 39
